@@ -1,0 +1,36 @@
+# ============================================================
+# .gitignore — HT-SUA33GM-T1V-C Calibration Suite
+# ============================================================
+
+# Compiled executables
+ptc_verify
+ptc_acquire
+qe_acquire
+
+# Raw frame data — never commit to git
+# (frames are large binary files; store locally or on lab NAS)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Generated plots (reproducible from data)
+*.png
+*.pdf
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
