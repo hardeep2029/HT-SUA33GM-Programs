@@ -72,7 +72,7 @@ The HuaTeng Vision Linux SDK must be installed before building.
 ## Build
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ht-sua33-calibration.git
+git clone https://github.com/hardeep2029/ht-sua33-calibration.git
 cd ht-sua33-calibration
 make
 ```
